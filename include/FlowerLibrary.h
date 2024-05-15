@@ -1,8 +1,11 @@
-//
-// Created by Delia on 5/15/2024.
-//
+#ifndef FLOWER_LIBRARY_H_
+#DEFINE FLOWER_LIBRARY_H_
 
-#ifndef TEMAPOO2_FLOWERLIBRARY_H
-#define TEMAPOO2_FLOWERLIBRARY_H
+#include "./AbstractFlower.h"
+#include "./IRoseBouquet.h"
+#include "./Rose.h"
+#include "./Liliac.h"
+#include "./Sunflower.h"
+#include "./enums/Fragrance.h"
 
-#endif //TEMAPOO2_FLOWERLIBRARY_H
+#endif

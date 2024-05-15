@@ -1,8 +1,9 @@
-//
-// Created by Delia on 5/15/2024.
-//
+#ifdef FRAGRANCE_H_
+#define FRAGRANCE_H_
 
-#ifndef TEMAPOO2_FRAGRANCE_H
-#define TEMAPOO2_FRAGRANCE_H
-
-#endif //TEMAPOO2_FRAGRANCE_H
+enum Fragrance{
+    F_MILD_FRAGRANCE,
+    F_STRONG_FRAGRANCE,
+    F_NONE
+};
+#endif

@@ -2,12 +2,16 @@
 #define LILIAC_H_
 
 #include "AbstractFlower.h"
-#include "IPurpleBouquet.h"
+#include "enums/Fragrance.h"
 
-class Liliac: public AbstractFlower, public IPurpleBouquet
+class Liliac: public AbstractFlower
 {
 private:
-    static int liliac_number;
-
-
+    Fragrance fragrance;
+public:
+    Liliac(const std::string& name_="", const std::string& family_="", Fragrance fragrance_=Fragrance=Fragrance::F_NONE);
+    void Afisare(std::ostream& os) const override;
+    void EmitScent() const override;
+    ~Liliac() override;
 };
+#endif
