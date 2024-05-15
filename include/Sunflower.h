@@ -9,7 +9,7 @@ private:
     Sunflower *seeds;
     int numberOfSeeds;
 public:
-    Sunflower(const std::string& name_="", const std::string& name="", int numberOfSeeds_=0);
+    Sunflower(const std::string& name_="", const std::string& family="", int numberOfSeeds_=0);
     Sunflower(const Sunflower& other);
     Sunflower& operator=(const Sunflower& other);
     Sunflower(Sunflower&& other);

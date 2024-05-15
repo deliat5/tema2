@@ -1,5 +1,5 @@
 #ifndef FLOWER_LIBRARY_H_
-#DEFINE FLOWER_LIBRARY_H_
+#define FLOWER_LIBRARY_H_
 
 #include "./AbstractFlower.h"
 #include "./IRoseBouquet.h"

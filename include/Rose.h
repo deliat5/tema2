@@ -6,7 +6,7 @@
 
 class Rose:public AbstractFlower, public IRoseBouquet
 {
-privare:
+private:
     static int numberOfRoseColors;
     std::string roseColors;
 public:
