@@ -1,8 +1,16 @@
-//
-// Created by Delia on 5/15/2024.
-//
+#ifndef BOUQUET_H_
+#define BOUQUET_H_
 
-#ifndef TEMAPOO2_BOUQUET_H
-#define TEMAPOO2_BOUQUET_H
+#include "Rose.h"
+#include <vector>
 
-#endif //TEMAPOO2_BOUQUET_H
+class Bouquet {
+private:
+    std::vector<Rose> roseList;
+public:
+    Bouquet();
+    void Addrose(const Rose& rose);
+    void Info() const;
+};
+
+#endif
