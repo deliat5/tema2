@@ -1,0 +1,3 @@
+C:/Users/Delia/Desktop/temaPOO2/cmake-build-debug/CMakeFiles/temaPOO2.dir
+C:/Users/Delia/Desktop/temaPOO2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Delia/Desktop/temaPOO2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
