@@ -4,7 +4,7 @@ int AbstractFlower::idGenerator = 1;
 
 void AbstractFlower::Describe() const
 {
-    printf("Describing an abstract flower with the name %s belonging to the family %s\n", name.c_str(), family);
+    printf("Describing an abstract flower with the name %s belonging to the family %s\n", name.c_str(), family.c_str());
 }
 
 void AbstractFlower::Identify() const
@@ -14,7 +14,7 @@ void AbstractFlower::Identify() const
 
 AbstractFlower::AbstractFlower(const std::string& name_, const std::string& family_) : name{name_}, family{family_}, id {idGenerator++}
 {
-    std::cout << "Created an absract flower\n";
+    std::cout << "Created an abstract flower\n";
 }
 
 std::ostream &operator<<(std::ostream &os, const AbstractFlower &flower)

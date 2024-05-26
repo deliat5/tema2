@@ -7,9 +7,9 @@
 class Liliac: public AbstractFlower
 {
 private:
-    Fragrance fragrance;
+    std::string fragrance;
 public:
-    Liliac(const std::string& name_="", const std::string& family_="", Fragrance fragrance_=Fragrance=Fragrance::F_NONE);
+    Liliac(const std::string& name_="", const std::string& family_="", Fragrance fragrance_=Fragrance::F_NONE);
     void Afisare(std::ostream& os) const override;
     void EmitScent() const override;
     ~Liliac() override;

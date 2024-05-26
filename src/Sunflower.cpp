@@ -2,25 +2,23 @@
 
 
 Sunflower::Sunflower(const std::string &name_, const std::string &family, int numberOfSeeds_)
-        : AbstractAnimal(name_,family), numberOfSeeds {numberOfSeeds_}
+        : AbstractFlower(name_,family), numberOfSeeds {numberOfSeeds_}
 {
-    if(numberOfSeeds == 0)
+    if(numberOfSeeds==0)
         seeds=nullptr;
     else
         seeds=new Sunflower[numberOfSeeds];
     std::cout << "Created a sunflower!\n";
 }
 
-
-
 void Sunflower::EmitScent() const
 {
-    printf("Sunflower id[%d] %s belonging to the family %s with %d seeds is scented", id, name.c_str(), family, numberOfSeeds);
+    printf("Sunflower id[%d] %s belonging to the family %s with %d seeds is scented", id, name.c_str(), family.c_str(), numberOfSeeds);
 }
 
 void Sunflower::Afisare(std::ostream& os) const
 {
-    os << "Printing all data for sunflower with id" << id <<":"<< std::endl;
+    os << "Printing all data for sunflower with id"<<" "<< id <<":"<< std::endl;
 }
 
 Sunflower::Sunflower(const Sunflower& other) : AbstractFlower(other)
@@ -64,7 +62,6 @@ Sunflower& Sunflower::operator=(Sunflower&& other)
     }
     return *this;
 }
-
 
 Sunflower::~Sunflower()
 {

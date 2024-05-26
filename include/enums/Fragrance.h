@@ -1,5 +1,6 @@
-#ifdef FRAGRANCE_H_
+#ifndef FRAGRANCE_H_
 #define FRAGRANCE_H_
+
 
 enum Fragrance{
     F_MILD_FRAGRANCE,

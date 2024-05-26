@@ -9,6 +9,7 @@ add_executable(temaPOO2
         src/Rose.cpp
         src/Bouquet.cpp
         src/AbstractFlower.cpp
+        src/Sunflower.cpp
 )
 
 

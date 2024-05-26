@@ -12,7 +12,7 @@ private:
 public:
     Rose(const std::string& name_="",const std::string& family_="",const std::string& roseColors_="");
     static int GetNumberOfRoseColors();
-    static void AddNewRoseColor();
+    void IncreaseNumberOfRoseColors();
     static void RemoveRoseColor();
     void Afisare(std::ostream& os) const override;
     void EmitScent() const override;
