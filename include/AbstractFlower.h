@@ -18,6 +18,6 @@ public:
     virtual ~AbstractFlower();
 protected:
     AbstractFlower(const std::string& name_="", const std::string& family_="");
-    virtual void Afisare(std::ostream& os) const=0;
+    virtual void Print(std::ostream& os) const=0;
 };
 #endif

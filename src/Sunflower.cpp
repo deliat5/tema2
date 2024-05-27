@@ -13,10 +13,11 @@ Sunflower::Sunflower(const std::string &name_, const std::string &family, int nu
 
 void Sunflower::EmitScent() const
 {
-    printf("Sunflower id[%d] %s belonging to the family %s with %d seeds is scented", id, name.c_str(), family.c_str(), numberOfSeeds);
+    printf("Sunflower with id[%d] belonging to the family %s with %d seeds is scented", id, family.c_str(), numberOfSeeds);
+    printf("\n");
 }
 
-void Sunflower::Afisare(std::ostream& os) const
+void Sunflower::Print(std::ostream& os) const
 {
     os << "Printing all data for sunflower with id"<<" "<< id <<":"<< std::endl;
 }

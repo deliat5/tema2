@@ -15,7 +15,7 @@ public:
     Sunflower(Sunflower&& other);
     Sunflower& operator=(Sunflower&& other);
     void EmitScent() const override;
-    void Afisare(std::ostream& os) const override;
+    void Print(std::ostream& os) const override;
     ~Sunflower() override;
 };
 #endif

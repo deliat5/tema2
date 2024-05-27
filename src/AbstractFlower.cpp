@@ -20,7 +20,7 @@ AbstractFlower::AbstractFlower(const std::string& name_, const std::string& fami
 std::ostream &operator<<(std::ostream &os, const AbstractFlower &flower)
 {
     os << "Name: " << flower.name << "\t" << "Family: " << flower.family << std::endl;
-    flower.Afisare(os);
+    flower.Print(os);
     return os;
 }
 

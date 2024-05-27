@@ -1,5 +1,3 @@
-#include <utility>
-
 #include "../include/Rose.h"
 
 int Rose::numberOfRoseColors=5;
@@ -27,15 +25,14 @@ void Rose::RemoveRoseColor()
     numberOfRoseColors--;
 }
 
-void Rose::Afisare(std::ostream &os) const
+void Rose::Print(std::ostream &os) const
 {
     os << "Printing all data for rose with id" <<" "<< id <<":"<<std::endl;
 }
 
 void Rose::EmitScent() const
 {
-    printf("Rose id[%d] %s belonging to the family %s with %d number of colors is scented\n",
-           id, name.c_str(), family.c_str(), roseColor.c_str());
+    printf("Rose with id[%d] belonging to the family %s with %d number of colors is scented\n",id, family.c_str(), roseColor.c_str());
 }
 void Rose::Describe() const
 {

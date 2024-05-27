@@ -14,7 +14,7 @@ public:
     static int GetNumberOfRoseColors();
     void IncreaseNumberOfRoseColors();
     static void RemoveRoseColor();
-    void Afisare(std::ostream& os) const override;
+    void Print(std::ostream& os) const override;
     void EmitScent() const override;
     void Describe() const override;
     ~Rose() override;
