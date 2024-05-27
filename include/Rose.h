@@ -8,9 +8,9 @@ class Rose:public AbstractFlower, public IRoseBouquet
 {
 private:
     static int numberOfRoseColors;
-    std::string roseColors;
+    std::string roseColor;
 public:
-    Rose(const std::string& name_="",const std::string& family_="",const std::string& roseColors_="");
+    Rose(const std::string& name_="",const std::string& family_="",std::string  roseColors_="");
     static int GetNumberOfRoseColors();
     void IncreaseNumberOfRoseColors();
     static void RemoveRoseColor();

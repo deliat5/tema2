@@ -16,7 +16,6 @@ public:
     void Identify() const;
     friend std::ostream& operator<<(std::ostream& os, const AbstractFlower& flower);
     virtual ~AbstractFlower();
-    virtual void printDetails() const = 0;
 protected:
     AbstractFlower(const std::string& name_="", const std::string& family_="");
     virtual void Afisare(std::ostream& os) const=0;
