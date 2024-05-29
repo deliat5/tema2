@@ -2,7 +2,7 @@
 
 # 💐 Flower Shop 💐
 
-This C++ project is a simulation of a flower shop, where flowers are represented with various attributes and behaviors. The library includes classes for different types of flowers such as roses, lilies, and sunflowers, each with its own unique characteristics (ex: scent,color).
+This C++ project is a simulation of a flower shop, where flowers are represented with various attributes and behaviors. It includes classes for different types of flowers such as roses, lilies, and sunflowers, each with its own unique characteristics (ex: scent,color).
 
 ## Classes Overview:
 
